@@ -1,8 +1,33 @@
 # Semantic Gateways - an introduction
 
+The main objective of a Semantic Gateway is to translate and transform data into information for the recipient which is either a receiving Access Point of the same organisation or an participating (other) organisation. 
+
 ## Cargo message structure
 
-![SG-1](../images/Semantic%20Gateway%201%20(2013-04-17)
+
+#### iCargo message structure
+
+![SG-1](../images/SG-1)
+
+## Deployment
+
+#### Integrated solution
+
+A Semantic Gateway require several software components which are also required for an Access Point. Therefore, it makes sense to combine the implementation of an Access Point and a Semantic Gateway. 
+
+![SG-2](../images/SG-2)
+
+#### Stand-alone solution
+
+If security policies require a stand-alone Semantic Gateway then  the Access Point can be deployed as a separate software service within the same execution environment or within an external execution environment. 
+
+![SG-3](../images/SG-3)
+
+#### Interfacing with legacy systems
+
+For interaction with legacy systems or non-iCargo compliant software services in general, software adapters are required for protocol conversions. The figure below gives a few examples of adapters.
+
+![SG-4](../images/SG-4)
 
 ## Software components
 
