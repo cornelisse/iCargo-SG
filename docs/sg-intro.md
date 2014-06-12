@@ -53,9 +53,50 @@ The design looks symmetric but the reverse operation to convert entities into me
 
 ![SG-in-3](../images/SG-in-3.png)
 
+Decompose message
+-----------------
+Transformation of external message into internal format.
+Conversion from XML to JSON: 
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/89vwP/)
+
+Filtering using a path:
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/4dgNN/)
+
+Conversion into entities and map name of attributes of interest.
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/R69hY/)
+
 #### SG inbound 4
 
 ![SG-in-4](../images/SG-in-4.png)
+
+Filter entities:
+----------------
+
+Conversion into entities and FULL mapping
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/2RfD3/)
+
+Conversion to iCargo REST API
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/f72mg/)
+
+Introducing conversion functions and automatic construction of the payload
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/D5t4a/)
+
+The function convertWeight() in this fiddle is a very poor implementation. Use of stable conversion library is required
+
+Conversion of quantities
+------------------------
+
+Using quantities.js, a JavaScript library derived from a successful Ruby implementation.
+
+Conversion of units: grossWeight with units and value
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/tVet5/)
+
+Quantity conversion (part 1)
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/fPT5K/)
+
+Quantity conversion (part 2)
+[jsFiddle](http://jsfiddle.net/ErikCornelisse/7uUAt/)
+
 
 ## The Semantic Gateway in reverse
 
